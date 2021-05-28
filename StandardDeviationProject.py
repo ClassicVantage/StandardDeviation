@@ -1,6 +1,6 @@
 import csv 
 
-with open("data,csv",newline='') as f:
+with open("data.csv",newline='') as f:
     reder=csv.reader(f)
     file_data=list(reader)
 
